@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/views/decorators">
+    <excludes>
+    	<pattern>*.html</pattern>
+    	<pattern>/login</pattern>
+    	<pattern>/home</pattern>
+    	<pattern>/users/valideduser</pattern>
+    	<pattern>/registration</pattern>
+    	<pattern>/addmember</pattern>
+    	<pattern>/memberdetailregistration</pattern>
+    	<pattern>/addmemberdetails</pattern>
+    	<pattern>/editmemberdetails</pattern>
+    	<pattern>/addbrand</pattern>
+    	<pattern>/editbrand</pattern>
+    	<pattern>/addcategory</pattern>
+    	<pattern>/editcategory</pattern>
+    	<pattern>/addcurrency</pattern>
+    	<pattern>/editcurrency</pattern>
+    	<pattern>/addshipping</pattern>
+    	<pattern>/editshipping</pattern>
+    	<!-- Ole Ul Islam -->
+    	<pattern>/insertDemand</pattern>
+    	<pattern>/editdemand</pattern>
+    	<pattern>/insertSupply</pattern>
+    	<pattern>/editsupply</pattern>
+    	<pattern>/insertSettlement</pattern>
+    	<pattern>/editsettlement</pattern>
+    	<pattern>/editassociation</pattern>
+    </excludes>
+
+    <decorator name="main" page="/main.dec">
+          <pattern>/*</pattern>
+    </decorator>
+</decorators>

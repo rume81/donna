@@ -1,0 +1,295 @@
+/* 
+    Created on : May 15, 2017, 12:19:08 PM
+    Author     : Ole Ul Islam (Ori)
+*/
+
+.no-padding {
+    padding: 0;
+}
+ul {
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    list-style: none;
+}
+a:hover {
+    text-decoration: none;
+}
+label {
+    font-weight: normal;
+}
+.login h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 60px 0 50px 0;
+}
+.login h4 {
+    margin: 10px 0 30px 0;
+}
+.login label {
+    margin: 10px 0;
+}
+.login .form-control {
+    border-radius: 0;
+    height: 36px;
+    /* border: 1px solid #eeeeee; */
+}
+.login button {
+  height: 40px;
+  margin: 2% 4%;
+  width: 41%;
+}
+.login p {
+    margin: 12% 0 0 0;
+}
+.login p a {
+    color: #333;    
+}
+.login p a:hover {
+    text-decoration: none;
+}
+.home-main-content {
+    overflow: hidden;
+}
+.right-top-nav {
+    float: right;
+}
+.right-top-nav li {
+    float: left;
+    margin: 10px 5px;
+}
+header {
+  background: #99cccc none repeat scroll 0 0;
+  overflow: hidden;
+  height: 60px;
+}
+.user {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 40px;
+  vertical-align: middle;
+  width: 40px;
+}
+.user span {
+  font-size: 20px;
+  left: -10px;
+  top: 8px;
+  color: #999;
+}
+.logout button {
+    padding: 5px 15px;
+}
+.logout button {
+  padding: 9px 25px;
+  border: 1px solid #999;
+}
+.right-top-nav .username {
+  font-size: 16px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.home-task li {
+  border: 1px solid #999;
+  float: left;
+  margin: 3%;
+  padding: 20px 10px 5px 10px;
+  text-align: center;
+  width: 19%;
+  border-radius: 20px;
+}
+.dashborad-menu ul li:last-child {
+  background-color: #fff;
+  margin: 120px 10px 80px;
+}
+
+.home-task li:nth-child(even) {
+    background-color: #FF7777;
+}
+.home-task li:nth-child(odd) {
+    background-color: #A6CAB8;
+}
+.home-task p:first-child {
+    font-size: 36px;
+}
+.home-task p:last-child {
+    padding-top: 25px;
+}
+.task {
+  margin-top: 30px;
+}
+.dashborad-menu {
+    background-color: #99cccc;
+}
+.dashborad-menu ul li {
+    height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 1px;
+    padding-top: 9px;
+}
+.dashborad-menu ul li a {
+    color: #000;
+}
+.dashborad-menu ul li:hover {
+    background-color: #ffffff;
+}
+.dashborad-menu .active {
+    background-color: #fff;
+}
+.display tbody tr td {
+    padding: 0;
+}
+.add-new-form label {
+    text-align: left !important;
+}
+.add-new-form .form-control {
+    border-radius: 0;
+}
+.open-account h3 {
+    margin: 50px 0 20px;
+}
+.account-button {
+    margin: 5% 2% 8%;
+    text-align: center;
+}
+.account-button button {
+    width: 30%;
+    margin-right: 10%;
+    height: 40px;
+}
+.form-radio {
+    text-align: center;
+    margin: 10px 0 40px;
+}
+.edit-button {
+    text-align: center;
+}
+.edit-button button {
+    height: 40px;
+    margin: 5%;
+    width: 20%;
+}
+.edit-heading {
+    background-color: #E1F3FF;
+}
+.user-id {
+    padding: 20px 0;
+}
+.user-id label {
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 0px;
+}
+.cancel-button {
+    color: #FF6666;
+    border: 1px solid #FF6666;
+}
+.add-new-button button {
+  margin: 20px 0 10px;
+}
+.association-button button {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.association {
+	background-color: orange !important;
+}
+.associted-color {
+  background-color: orange;
+  height: 25px;
+  overflow: hidden;
+  width: 25px;
+  float: left;
+  margin-right: 10px;
+}
+.association-color-main {
+	margin-top: 20px;
+}
+.home-task p {
+  color: #000;
+}
+.home-task a {
+  color: #000;
+}
+/* .association td{
+	background-color: orange;
+} */
+/* .association-supply table, .association-demand table {
+	min-height: 420px;
+} */
+
+/*** Multiform *****/
+
+/*custom font*/
+
+
+/*Add from form.css*/
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 15px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.member-edit-form label {
+    text-align: left !important;
+}
+.member-edit-form .next {
+    float: right;
+}
+.deman_photos input {
+	width: 60%;
+	float: left;
+	margin-bottom: 16px;
+}
+.form-group div{
+	margin-top: 5px;
+}
+.deman_photos img {
+	float: right;
+}
+.deman_photos button {
+	width: 60%;
+	float: left;
+	margin-bottom: 16px;
+}
+
+/*Add from form.css*/
